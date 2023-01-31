@@ -21,7 +21,7 @@ public class BaseBallTeam {
 
     //gerRate()メソッド
     public double getRate() {
-        double rate = (double)win /(this.win + this.lose);
+        double rate = (double)this.win /(this.win + this.lose);
         return rate;
     }
 
